@@ -1,9 +1,9 @@
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
-github.com/TerraDharitri/drt-go-chain-core v0.0.1 h1:y3O6PBU/s+pocY+mIzxm0LKTPsxobJ+qD4lpbPB0NnA=
-github.com/TerraDharitri/drt-go-chain-core v0.0.1/go.mod h1:qfU1Sw8AbPbOceOhvXFbpnSheA1oje2tGb+PDDKufuY=
-github.com/TerraDharitri/drt-go-chain-logger v0.0.1 h1:v7aqM1W7pFVoVU9FW2jz/ZjVZwlAQt7V9JvgrhPUnJQ=
-github.com/TerraDharitri/drt-go-chain-logger v0.0.1/go.mod h1:yK17D9yZsvfIx1mjRZP6bCP6+TCWCK+9zDCgoMf3/8A=
+github.com/TerraDharitri/drt-go-chain-core v0.0.3 h1:OZ3puqoAYTQy1TaoPInoRgYxfw/iEbet9yGtWsnQnPc=
+github.com/TerraDharitri/drt-go-chain-core v0.0.3/go.mod h1:qfU1Sw8AbPbOceOhvXFbpnSheA1oje2tGb+PDDKufuY=
+github.com/TerraDharitri/drt-go-chain-logger v0.0.2 h1:fMXkysGIOFnH3C+N6GPc5YbKmI80+eUjtySq+4KMZ4Y=
+github.com/TerraDharitri/drt-go-chain-logger v0.0.2/go.mod h1:hYG/Whv0UN+S7pjQ9S+ePNTLkrgchhGdwjIVIdExClc=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/decred/dcrd/crypto/blake256 v1.0.1 h1:7PltbUIQB7u/FfZ39+DGa/ShuMyJ5ilcvdfma9wOH6Y=
