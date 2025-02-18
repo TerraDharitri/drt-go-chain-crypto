@@ -1,10 +1,10 @@
 package singlesig
 
 import (
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
 )
 
 var _ crypto.SingleSigner = (*BlsSingleSigner)(nil)

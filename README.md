@@ -1,2 +1,2 @@
-# mx-chain-crypto-go
-mx-chain crypto packages and high level definitions 
+# drt-chain-crypto-go
+drt-chain crypto packages and high level definitions 

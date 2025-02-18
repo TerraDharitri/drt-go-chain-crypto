@@ -3,12 +3,12 @@ package multisig_test
 import (
 	"testing"
 
+	"github.com/TerraDharitri/drt-go-chain-core/hashing/blake2b"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl/multisig"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-core-go/hashing/blake2b"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/signing"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl/multisig"
 	"github.com/stretchr/testify/require"
 )
 

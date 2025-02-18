@@ -3,13 +3,13 @@ package multisig_test
 import (
 	"testing"
 
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
-	"github.com/multiversx/mx-chain-crypto-go/signing"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
-	llsig "github.com/multiversx/mx-chain-crypto-go/signing/mcl/multisig"
-	"github.com/multiversx/mx-chain-crypto-go/signing/multisig"
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
+	llsig "github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl/multisig"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/multisig"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

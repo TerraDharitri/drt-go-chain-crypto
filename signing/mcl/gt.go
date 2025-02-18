@@ -1,8 +1,8 @@
 package mcl
 
 import (
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-crypto-go"
 )
 
 type groupGT struct {

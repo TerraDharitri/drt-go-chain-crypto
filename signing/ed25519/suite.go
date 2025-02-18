@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 	"crypto/ed25519"
 
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-logger-go"
+	"github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-logger"
 )
 
 var log = logger.GetOrCreate("crypto/signing/ed25519")

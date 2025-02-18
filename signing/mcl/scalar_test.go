@@ -3,8 +3,8 @@ package mcl
 import (
 	"testing"
 
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
 	"github.com/stretchr/testify/require"
 )
 

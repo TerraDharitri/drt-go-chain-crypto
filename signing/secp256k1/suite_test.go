@@ -3,10 +3,10 @@ package secp256k1_test
 import (
 	"testing"
 
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
-	"github.com/multiversx/mx-chain-crypto-go/signing/secp256k1"
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/secp256k1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

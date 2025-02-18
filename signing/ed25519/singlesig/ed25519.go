@@ -3,8 +3,8 @@ package singlesig
 import (
 	"crypto/ed25519"
 
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	"github.com/multiversx/mx-chain-crypto-go"
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 )
 
 // Ed25519Signer exposes the signing and verification functionalities from the ed25519 signature scheme

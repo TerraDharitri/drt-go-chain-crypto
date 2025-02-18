@@ -3,7 +3,7 @@ package disabled
 import (
 	"crypto/cipher"
 
-	"github.com/multiversx/mx-chain-crypto-go"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 )
 
 // Disabled is the string for a disabled suite

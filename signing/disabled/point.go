@@ -1,6 +1,6 @@
 package disabled
 
-import "github.com/multiversx/mx-chain-crypto-go"
+import crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 
 const marshaledPoint = "point"
 

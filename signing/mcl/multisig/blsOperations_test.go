@@ -4,13 +4,13 @@ import (
 	"encoding/hex"
 	"testing"
 
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/ed25519"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl/multisig"
 	"github.com/herumi/bls-go-binary/bls"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
-	"github.com/multiversx/mx-chain-crypto-go/signing"
-	"github.com/multiversx/mx-chain-crypto-go/signing/ed25519"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl/multisig"
 	"github.com/stretchr/testify/require"
 )
 

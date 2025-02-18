@@ -1,11 +1,11 @@
 package multisig
 
 import (
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl/singlesig"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl/singlesig"
 )
 
 var _ crypto.LowLevelSignerBLS = (*BlsMultiSignerKOSK)(nil)

@@ -3,11 +3,11 @@ package multisig
 import (
 	"encoding/hex"
 
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl/singlesig"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl/singlesig"
 )
 
 // scalarMulPk returns the result of multiplying a scalar given as a bytes array, with a BLS public key (point)

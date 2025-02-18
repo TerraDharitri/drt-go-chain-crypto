@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"crypto/ed25519"
 
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	"github.com/multiversx/mx-chain-crypto-go"
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 )
 
 var _ crypto.Scalar = (*ed25519Scalar)(nil)

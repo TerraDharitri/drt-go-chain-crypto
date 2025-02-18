@@ -4,9 +4,9 @@ import (
 	goEd25519 "crypto/ed25519"
 	"testing"
 
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
-	"github.com/multiversx/mx-chain-crypto-go/signing/ed25519"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/ed25519"
 	"github.com/stretchr/testify/assert"
 )
 

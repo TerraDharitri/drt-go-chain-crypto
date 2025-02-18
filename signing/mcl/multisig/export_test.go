@@ -1,10 +1,10 @@
 package multisig
 
 import (
+	"github.com/TerraDharitri/drt-go-chain-core/hashing"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-core-go/hashing"
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
 )
 
 func ScalarMulSig(suite crypto.Suite, scalarBytes []byte, sigPoint *mcl.PointG1) (*mcl.PointG1, error) {

@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/multiversx/mx-chain-crypto-go"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 )
 
 // PointMock represents a mock implementation for a Point

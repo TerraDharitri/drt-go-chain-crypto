@@ -3,9 +3,9 @@ package x25519_test
 import (
 	"testing"
 
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/encryption/x25519"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/encryption/x25519"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	logger "github.com/multiversx/mx-chain-logger-go"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	logger "github.com/TerraDharitri/drt-go-chain-logger"
 )
 
 var log = logger.GetOrCreate("crypto/signing/secp256k1")

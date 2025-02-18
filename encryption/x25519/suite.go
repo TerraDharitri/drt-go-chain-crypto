@@ -5,7 +5,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	crypto "github.com/multiversx/mx-chain-crypto-go"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 	"golang.org/x/crypto/curve25519"
 )
 

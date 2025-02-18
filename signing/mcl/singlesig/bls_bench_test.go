@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/multiversx/mx-chain-core-go/hashing/sha256"
-	"github.com/multiversx/mx-chain-crypto-go/signing"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl"
-	"github.com/multiversx/mx-chain-crypto-go/signing/mcl/singlesig"
+	"github.com/TerraDharitri/drt-go-chain-core/hashing/sha256"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/mcl/singlesig"
 	"github.com/stretchr/testify/require"
 )
 

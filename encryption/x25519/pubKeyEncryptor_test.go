@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/multiversx/mx-chain-core-go/core"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/encryption/x25519"
-	"github.com/multiversx/mx-chain-crypto-go/signing"
-	"github.com/multiversx/mx-chain-crypto-go/signing/ed25519"
+	"github.com/TerraDharitri/drt-go-chain-core/core"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/encryption/x25519"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing/ed25519"
 	"github.com/stretchr/testify/require"
 )
 
@@ -28,7 +28,7 @@ func TestEncryptedData_EncryptDecryptProcessOK(t *testing.T) {
 	require.Equal(t, data, decryptedData)
 }
 
-func TestEncryptedData_ErdJSEncryptedDataForBob(t *testing.T) {
+func TestEncryptedData_DrtJSEncryptedDataForBob(t *testing.T) {
 	encryptedMessage := []byte("alice's secret text for bob")
 	bobSecret, _ := hex.DecodeString("b8ca6f8203fb4b545a8e83c5384da033c415db155b53fb5b8eba7ff5a039d639")
 	edSuite := ed25519.NewEd25519()

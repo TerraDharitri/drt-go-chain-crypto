@@ -3,8 +3,8 @@ package mcl
 import (
 	"testing"
 
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
 	"github.com/herumi/bls-go-binary/bls"
-	"github.com/multiversx/mx-chain-core-go/core/check"
 	"github.com/stretchr/testify/require"
 )
 

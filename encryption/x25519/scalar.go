@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"crypto/sha512"
 
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	crypto "github.com/multiversx/mx-chain-crypto-go"
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 	"golang.org/x/crypto/curve25519"
 )
 

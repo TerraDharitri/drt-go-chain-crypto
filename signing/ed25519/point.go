@@ -4,15 +4,16 @@ import (
 	"bytes"
 	"crypto/ed25519"
 
-	"github.com/multiversx/mx-chain-core-go/core/check"
-	"github.com/multiversx/mx-chain-crypto-go"
+	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 )
 
 var _ crypto.Point = (*ed25519Point)(nil)
 
 // ed25519 - is a mapping over crypto/ed25519 public key
 // Most of the implementations of the Point interface functions are mocked
-//  since the implementation details edwards25519 are internal to the crypto/ed25519 package
+//
+//	since the implementation details edwards25519 are internal to the crypto/ed25519 package
 type ed25519Point struct {
 	ed25519.PublicKey
 }

@@ -1,6 +1,6 @@
 package multisig
 
-import crypto "github.com/multiversx/mx-chain-crypto-go"
+import crypto "github.com/TerraDharitri/drt-go-chain-crypto"
 
 // ConvertBytesToPubKeys -
 func ConvertBytesToPubKeys(pubKeys [][]byte, kg crypto.KeyGenerator) ([]crypto.PublicKey, error) {

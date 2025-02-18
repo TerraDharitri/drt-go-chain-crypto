@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/multiversx/mx-chain-crypto-go"
-	"github.com/multiversx/mx-chain-crypto-go/mock"
-	"github.com/multiversx/mx-chain-crypto-go/signing"
+	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-crypto/mock"
+	"github.com/TerraDharitri/drt-go-chain-crypto/signing"
 	"github.com/stretchr/testify/assert"
 )
 
