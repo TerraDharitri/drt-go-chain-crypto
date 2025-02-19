@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 	"crypto/ed25519"
 
-	crypto "github.com/TerraDharitri/drt-go-chain-crypto"
-	logger "github.com/TerraDharitri/drt-go-chain-logger"
+	"github.com/TerraDharitri/drt-go-chain-crypto"
+	"github.com/TerraDharitri/drt-go-chain-logger"
 )
 
 var log = logger.GetOrCreate("crypto/signing/ed25519")
@@ -41,8 +41,7 @@ func (s *suiteEd25519) CreatePoint() crypto.Point {
 }
 
 // CreatePointForScalar returns a Point that is the representation of a public key corresponding
-//
-//	to the provided Scalar in the ed25519 signature scheme
+//  to the provided Scalar in the ed25519 signature scheme
 func (s *suiteEd25519) CreatePointForScalar(scalar crypto.Scalar) (crypto.Point, error) {
 	privateKey, ok := scalar.GetUnderlyingObj().(ed25519.PrivateKey)
 	if !ok {
@@ -63,8 +62,7 @@ func (s *suiteEd25519) String() string {
 }
 
 // ScalarLen returns the length of the ed25519 private key - which is the number of bytes of
-//
-//	the seed (the actual private key) + the number of bytes of the public key
+//  the seed (the actual private key) + the number of bytes of the public key
 func (s *suiteEd25519) ScalarLen() int {
 	return ed25519.PrivateKeySize
 }
