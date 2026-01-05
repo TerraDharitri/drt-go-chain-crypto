@@ -1,6 +1,6 @@
 package singlesig
 
-import crypto "github.com/TerraDharitri/drt-go-chain-crypto"
+import "crypto"
 
 const signature = "signature"
 
