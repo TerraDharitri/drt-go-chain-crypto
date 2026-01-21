@@ -1,11 +1,11 @@
 module github.com/TerraDharitri/drt-go-chain-crypto
 
-go 1.23.7
+go 1.23
 
 require (
 	filippo.io/edwards25519 v1.0.0
-	github.com/TerraDharitri/drt-go-chain-core v0.1.1
-	github.com/TerraDharitri/drt-go-chain-logger v0.1.1
+	github.com/TerraDharitri/drt-go-chain-core v1.0.1
+	github.com/TerraDharitri/drt-go-chain-logger v1.0.0
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
 	github.com/herumi/bls-go-binary v1.28.2
 	github.com/stretchr/testify v1.8.0
